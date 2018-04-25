@@ -1,4 +1,4 @@
-package com.primbus;
+package com.primbus.event;
 
 import java.lang.reflect.Method;
 
