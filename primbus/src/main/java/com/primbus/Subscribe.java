@@ -8,5 +8,7 @@ import java.lang.annotation.Target;
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Subscribe {
-    String[] value();
+    String[] tag();
+
+    ThreadMethod thread() default ThreadMethod.POSTING;
 }
